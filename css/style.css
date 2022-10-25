@@ -1,0 +1,83 @@
+@import 'global.css';
+
+.titanic {
+  padding-top: 300px;
+}
+
+.form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titanic__search {
+  max-width: 350px;
+  width: 100%;
+  height: 35px;
+  padding: 0 5px;
+  color: aqua;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.1s;
+}
+.titanic__search:hover,
+.titanic__search:focus {
+  background-color: transparent;
+  border: 1px dashed aqua;
+}
+
+.titanic__submit {
+  max-width: 100px;
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.1s;
+}
+
+.titanic__submit:hover,
+.titanic__submit:focus {
+  background-color: transparent;
+  border: 1px dashed aqua;
+}
+.titanic__items {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.titanic__item {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: 1px dashed aqua;
+}
+.titanic__item.hide {
+  display: none;
+}
+.titanic__top {
+  display: flex;
+  margin-bottom: 5px;
+}
+.titanic__name {
+  max-width: 50%;
+  width: 100%;
+  margin-right: 10px;
+}
+.titanic__gender {
+  max-width: 10%;
+  width: 100%;
+  margin-right: 10px;
+}
+.titanic__survived {
+  max-width: 15%;
+  width: 100%;
+  margin-right: 10px;
+}
+.titanic__age {
+  margin-left: auto;
+}
+.titanic__bottom {
+  display: flex;
+  justify-content: space-between;
+}
